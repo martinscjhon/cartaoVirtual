@@ -1,6 +1,7 @@
 import React from "react";
 import { CardComponent } from "../../components/CardComponent/Card";
 import { ContactComponent } from "../../components/ContactComponent";
+import { FiArrowLeft } from "react-icons/fi";
 import logo from '../../assets/logo.png';
 import { 
     Box, 
@@ -11,7 +12,6 @@ import {
     Title, 
     Image 
 } from "./styles";
-
 
 const EduardoCastro: React.FC = () => (
     <Container>          
@@ -70,7 +70,7 @@ const EduardoCastro: React.FC = () => (
                     text= "eduardo.castro@oser.app"
                 />
             </a>
-        </ContainerContact>
+        </ContainerContact>              
     </Container>
 )
 

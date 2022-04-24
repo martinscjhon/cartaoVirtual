@@ -6,10 +6,14 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
 
-
     border-bottom: 0.9rem solid  #ff840a;
     
     height: 100vh; 
+
+    .icon-arrow{                
+       margin-bottom: 5rem;
+       margin-top: 0rem;
+    }
 
     @media(max-width: 420px){
         min-height: 115vh;        
@@ -61,7 +65,7 @@ const Span = styled.span`
 const ContainerContact = styled.div` 
     > a{
         text-decoration: none;
-    }    
+    }        
 `;
 
 const Box = styled.div`  
